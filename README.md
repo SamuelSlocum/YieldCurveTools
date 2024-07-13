@@ -3,10 +3,14 @@ This repository houses code to estimate the Adrian, Crump, Moench (2012) term st
 # Sample.py Script
 The Sample.py script shows the main features of the ACMTools.py module. This script first estimates the ACM model, plots the term premiums, and also shows the scenario analysis capabilities of the model. Below we discuss the output of each of these sections.
 ## Estimating Term Premiums
-The plot on the left shows the fitted yield curve, the Fed-provided yields (to ensure we are getting a good fit), as well as the implied average short rate over each time horizon. The plot on the right shows us the history of the 10-year fitted yield, term premium, and expected average short rate.
-![BaselineSample](https://github.com/user-attachments/assets/90af3f39-ba99-438a-806b-4c1ca4eff5df)
+The plot on the left shows the fitted yield curve, the Fed-provided yields (to ensure we are getting a good fit), as well as the implied average short rate over each time horizon. The plot on the right shows us the history of the 10-year fitted yield, term premium, and expected average short rate.\
+\
+![BaselineSample](https://github.com/user-attachments/assets/90af3f39-ba99-438a-806b-4c1ca4eff5df)\
+\
 ## Scenario Analysis
-The plots below show the yield curve under user-provided assumptions about the path of interest rates. In this case, the user input short rate assumptions at 6,12, and 24 months. These rate assumptions were 4.5%, 3.5%, and 2% respectively. We can then make inference about how the shape of the yield curve changes over time. Confidence intervals are also provided. 
-![ScenarioSample](https://github.com/user-attachments/assets/535a3613-f608-4c95-abde-acae44c8a1cc)
+The plots below show the yield curve under user-provided assumptions about the path of interest rates. In this case, the user input short rate assumptions at 6,12, and 24 months. These rate assumptions were 4.5%, 3.5%, and 2% respectively. We can then make inference about how the shape of the yield curve changes over time. Confidence intervals are also provided.\
+\
+![ScenarioSample](https://github.com/user-attachments/assets/535a3613-f608-4c95-abde-acae44c8a1cc)\
+\
 # Description of Code
 The main code for the repository is found in ACMTools.py. The code is based on an ACMModel object. This object contains methods to estimate the ACM model 
